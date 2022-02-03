@@ -1,0 +1,12 @@
+@media (min-width: 1200px) {
+    .move{
+        margin-left: 20em;
+        margin-top: 2em;
+        width: 75%;
+    }
+}
+@media (max-width: 1000px) {
+    .move{
+        margin: 1em;
+    }
+}
