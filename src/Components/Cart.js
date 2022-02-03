@@ -34,65 +34,65 @@ export class Cart extends Component {
         function price() {
             let price = 0;
 
-            if (a == '1 кутия - FW Мента') {
+            if (a === '1 кутия - FW Мента') {
                 price += 20;
-            } else if (a == '4 кутии - FW Мента') {
+            } else if (a === '4 кутии - FW Мента') {
                 price += 70;
-            } else if (a == '8 кутии - FW Мента') {
+            } else if (a === '8 кутии - FW Мента') {
                 price += 140;
-            } else if (a == '12 кутии - FW Мента') {
+            } else if (a === '12 кутии - FW Мента') {
                 price += 200;
-            } else if (a == '25 кутии - FW Мента') {
+            } else if (a === '25 кутии - FW Мента') {
                 price += 360;
             }
 
-            if (b == '1 кутия - FW Ягода') {
+            if (b === '1 кутия - FW Ягода') {
                 price += 20;
-            } else if (b == '4 кутии - FW Ягода') {
+            } else if (b === '4 кутии - FW Ягода') {
                 price += 70;
-            } else if (b == '8 кутии - FW Ягода') {
+            } else if (b === '8 кутии - FW Ягода') {
                 price += 140;
-            } else if (b == '12 кутии - FW Ягода') {
+            } else if (b === '12 кутии - FW Ягода') {
                 price += 200;
-            } else if (b == '25 кутии - FW Ягода') {
+            } else if (b === '25 кутии - FW Ягода') {
                 price += 360;
             }
 
-            if (c == '1бр малка машинка') {
+            if (c === '1бр малка машинка') {
                 price += 10;
-            } else if (c == '2бр малка машинка') {
+            } else if (c === '2бр малка машинка') {
                 price += 20;
             }
 
-            if (d == '1бр Сифон') {
+            if (d === '1бр Сифон') {
                 price += 70;
             }
 
-            if (e == '1 флакон Infusion') {
+            if (e === '1 флакон Infusion') {
                 price += 55;
-            } else if (e == '3 флакона Infusion') {
+            } else if (e === '3 флакона Infusion') {
                 price += 150;
-            }else if (e == '6 флакона Infusion') {
+            }else if (e === '6 флакона Infusion') {
                 price += 280;
             }
 
-            if (f == '1 кутия - Moca') {
+            if (f === '1 кутия - Moca') {
                 price += 20;
-            } else if (f == '4 кутии - Moca') {
+            } else if (f === '4 кутии - Moca') {
                 price += 70;
-            } else if (f == '8 кутии - Moca') {
+            } else if (f === '8 кутии - Moca') {
                 price += 140;
-            } else if (f == '12 кутии - Moca') {
+            } else if (f === '12 кутии - Moca') {
                 price += 200;
-            } else if (f == '25 кутии - Moca') {
+            } else if (f === '25 кутии - Moca') {
                 price += 360;
             }
 
-            if (getItems == '1 флакон ExoticWhip') {
+            if (getItems === '1 флакон ExoticWhip') {
                 price += 65;
-            } else if (g == '3 флакона ExoticWhip') {
+            } else if (g === '3 флакона ExoticWhip') {
                 price += 180;
-            }else if (g == '6 флакона ExoticWhip') {
+            }else if (g === '6 флакона ExoticWhip') {
                 price += 310;
             }
 

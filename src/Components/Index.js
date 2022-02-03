@@ -16,49 +16,49 @@ import exotic from './images/exotic.png';
 export class Index extends Component {
     addMint() {
         let selected = document.getElementById('mint').value;
-        if (selected != 'none') {
+        if (selected !== 'none') {
             localStorage.setItem("Mint", selected);
             alert("Добавено в количката");
         }
     }
     addStraw() {
         let selected = document.getElementById('strawberry').value;
-        if (selected != 'none') {
+        if (selected !== 'none') {
             localStorage.setItem("Strawberry", selected);
             alert("Добавено в количката");
         }
     }
     addMlMash() {
         let selected = document.getElementById('malkamash').value;
-        if (selected != 'none') {
+        if (selected !== 'none') {
             localStorage.setItem("Malkamash", selected);
             alert("Добавено в количката");
         }
     }
     addSifon() {
         let selected = document.getElementById('sifon').value;
-        if (selected != 'none') {
+        if (selected !== 'none') {
             localStorage.setItem("Sifon", selected);
             alert("Добавено в количката");
         }
     }
     addFlakon() {
         let selected = document.getElementById('flakon').value;
-        if (selected != 'none') {
+        if (selected !== 'none') {
             localStorage.setItem("Flakon", selected);
             alert("Добавено в количката");
         }
     }
     addMoca() {
         let selected = document.getElementById('moca').value;
-        if (selected != 'none') {
+        if (selected !== 'none') {
             localStorage.setItem("Moca", selected);
             alert("Добавено в количката");
         }
     }
     addExotic() {
         let selected = document.getElementById('exotic').value;
-        if (selected != 'none') {
+        if (selected !== 'none') {
             localStorage.setItem("Exotic", selected);
             alert("Добавено в количката");
         }
@@ -88,7 +88,7 @@ export class Index extends Component {
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
-                                <img src={freshwhipmint} height="300" />
+                                <img src={freshwhipmint} alt='' height="300" />
                                 <form class="card-body">
                                     <h2 className='fontlob'>FreshWhip Мента</h2>
                                     <p className='fontcom card-text'>
@@ -112,7 +112,7 @@ export class Index extends Component {
                         </div>
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
-                                <img src={freshwhipstraw} height="300" />
+                                <img src={freshwhipstraw} alt='' height="300" />
                                 <form class="card-body">
                                     <h2 className='fontlob'>FreshWhip Ягода</h2>
                                     <p className='fontcom card-text'>
@@ -136,7 +136,7 @@ export class Index extends Component {
                         </div>
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
-                                <img src={malkam} height="300" />
+                                <img src={malkam} alt='' height="300" />
                                 <form class="card-body">
                                     <h2 className='fontlob'>Малка машинка</h2>
                                     <p className='fontcom card-text'>
@@ -157,7 +157,7 @@ export class Index extends Component {
                         </div>
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
-                                <img src={sifon} height="300" />
+                                <img src={sifon} alt='' height="300" />
                                 <form class="card-body">
                                     <h2 className='fontlob'>Сифон</h2>
                                     <p className='fontcom card-text'>
@@ -177,7 +177,7 @@ export class Index extends Component {
                         </div>
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
-                                <img src={infusionmax} height="300" />
+                                <img src={infusionmax} alt='' height="300" />
                                 <form class="card-body">
                                     <h2 className='fontlob'>Infusion флакон</h2>
                                     <p className='fontcom card-text'>
@@ -199,7 +199,7 @@ export class Index extends Component {
                         </div>
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
-                                <img src={moca} height="300" />
+                                <img src={moca} alt='' height="300" />
                                 <form class="card-body">
                                     <h2 className='fontlob'>Kапсули Moca</h2>
                                     <p className='fontcom card-text'>
@@ -223,7 +223,7 @@ export class Index extends Component {
                         </div>
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
-                                <img src={exotic} height="300" />
+                                <img src={exotic} alt='' height="300" />
                                 <form class="card-body">
                                     <h2 className='fontlob'>ExoticWhip флакон</h2>
                                     <p className='fontcom card-text'>
