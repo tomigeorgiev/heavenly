@@ -245,6 +245,7 @@ export class Index extends Component {
                         </div>
                     </div>
 
+
                 </div>
                 <div className=' bg-light px-5'>
                     <footer class="container p-5" id='footer'>
