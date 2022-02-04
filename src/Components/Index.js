@@ -254,12 +254,7 @@ export class Index extends Component {
                                 <h3 className='fontlob'>Heavenly</h3>
                                 <p class="d-block mb-3 text-muted">Copytight &copy; 2022</p>
                             </div>
-                            <div class="col-6 col-md">
-                                <h5></h5>
-                                <ul class="list-unstyled text-small">
-                                    <li><a class="text-muted" href="#"></a></li>
-                                </ul>
-                            </div>
+                            
                             <div class="col-6 col-md">
                                 <h5>Социални мрежи</h5>
                                 <ul class="list-unstyled text-small">
