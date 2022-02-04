@@ -72,7 +72,7 @@ export class Cart extends Component {
                 price += 55;
             } else if (e === '3 флакона Infusion') {
                 price += 150;
-            }else if (e === '6 флакона Infusion') {
+            } else if (e === '6 флакона Infusion') {
                 price += 280;
             }
 
@@ -92,7 +92,7 @@ export class Cart extends Component {
                 price += 65;
             } else if (g === '3 флакона ExoticWhip') {
                 price += 180;
-            }else if (g === '6 флакона ExoticWhip') {
+            } else if (g === '6 флакона ExoticWhip') {
                 price += 310;
             }
 
@@ -111,7 +111,7 @@ export class Cart extends Component {
                     <ul class="list-group" id='list'>
                         <li class="list-group-item bg-info text-light">
                             <div className='float-left fontlob h4 pt-1'>Продукти</div>
-                            <a href="/" className='btn btn-light float-right fontcom'>Продължете пазаруването</a>
+                            <a href="/" className='btn btn-light float-right fontcom'>Обратно</a>
                             <button id="dlt" className='btn btn-danger mx-1 float-right'><i class="fas fa-trash"></i></button>
                         </li>
                         {getItems(a)}
@@ -129,6 +129,69 @@ export class Cart extends Component {
                             <div className='float-left fontcom h4 pt-2'>Общо:  {price()}лв.</div>
                         </li>
                     </ul>
+                    <hr/>
+                    <div className='container my-4'>
+                        <div className='row'>
+                            <div class="col-md">
+                                <h3 className='fontlob'>Данни за доставка </h3>
+                                <form className='fontcom'>
+                                    <label for="email">Въведете Вашите данни:</label>
+                                    <hr/>
+                                    <input type="email" name='email' placeholder='Имейл' className='form-control my-2' />
+                                    {/* <label for="name">Въведете две имена:</label> */}
+                                    <input type="text" name='name' placeholder='Име' className='form-control my-2' />
+                                    {/* <label for="city">Град:</label> */}
+                                    <input type="text" name='city' placeholder='Град' className='form-control my-2' />
+                                    {/* <label for="adress">Адрес:</label> */}
+                                    <input type="text" name='adress' placeholder='Адрес' className='form-control my-2' />
+                                    <input type="text" name='phone' placeholder='Тел. номер' className='form-control my-2' />
+                                    <br/>
+                                    <button type='submit' className='btn btn-info w-100 '>Поръчай</button>
+                                    <hr/>
+                                </form>
+                            </div>
+                            
+                            <div class="col-md">
+                                <h3 className='fontlob'>Поръчайте </h3>
+                                <p className='h5 font-weight-normal fontcom'>
+                                    Можете да направите поръчка като ни се обадите на тел. 0877423121<br/>
+                                    или ни пишете на:<br/>
+                                    <a className='btn btn-info my-2 fontcom' href="mailto:gasheavenly@gmail.com">gasheavenly@gmail.com</a>
+                                </p>
+                                <hr/>
+                            </div>
+                            <div class="col-md">
+                            </div>
+                        </div>
+                    </div>
+                </div><br/><br/><br/>
+                <div className=' bg-light px-5'>
+                    <footer class="container p-5" id='footer'>
+                        <div class="row">
+                            <div class=" col-lg">
+                                <h3 className='fontlob'>Heavenly</h3>
+                                <p class="d-block mb-3 text-muted">Copytight &copy; 2022</p>
+                            </div>
+                            
+                            <div class=" col-lg">
+                                <h5>Социални мрежи</h5>
+                                <ul class="list-unstyled text-small">
+                                    <li><a class="text-muted" href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                                    <li><a class="text-muted" href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg">
+                                <h5>Контакти</h5>
+                                <ul class="list-unstyled text-small">
+                                    <li><a class="text-muted" href="/">gasheavenly@gmail.com</a></li>
+                                    <li><a class="text-muted" href="/">0877423121</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+                <div className='p-2 bg-info text-light text-center'>
+                    Developed by Tomi Georgiev
                 </div>
             </div>
         );

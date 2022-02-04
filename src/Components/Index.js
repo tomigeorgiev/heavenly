@@ -249,20 +249,20 @@ export class Index extends Component {
                 </div>
                 <div className=' bg-light px-5'>
                     <footer class="container p-5" id='footer'>
-                        <div class="row px-5">
-                            <div class="col-12 col-md">
+                        <div class="row ">
+                            <div class="col-md">
                                 <h3 className='fontlob'>Heavenly</h3>
                                 <p class="d-block mb-3 text-muted">Copytight &copy; 2022</p>
                             </div>
                             
-                            <div class="col-6 col-md">
+                            <div class=" col-md">
                                 <h5>Социални мрежи</h5>
                                 <ul class="list-unstyled text-small">
                                     <li><a class="text-muted" href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
                                     <li><a class="text-muted" href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
                                 </ul>
                             </div>
-                            <div class="col-6 col-md">
+                            <div class=" col-md">
                                 <h5>Контакти</h5>
                                 <ul class="list-unstyled text-small">
                                     <li><a class="text-muted" href="/">gasheavenly@gmail.com</a></li>
