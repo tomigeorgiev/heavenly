@@ -1,0 +1,27 @@
+.img{
+    position: absolute;
+    height: 15%;
+    width: auto;
+    z-index: -1;
+}
+
+.img1{
+    top: 30%;
+    left: 5%;
+    transform: rotate(75deg);
+}
+.img2{
+    top: 90%;
+    left: 1%;
+    transform: rotate(250deg);
+}
+.img3{
+    top: 50%;
+    left: 7%;
+    transform: rotate(60deg);
+}
+.img4{
+    top: 65%;
+    left: 3%;
+    transform: rotate(-20deg);
+}

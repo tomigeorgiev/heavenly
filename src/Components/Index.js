@@ -3,6 +3,11 @@ import './css/indexStyle.css';
 import './css/album.css';
 import axios from 'axios';
 
+import './css/balloons.css';
+import './balloons';
+import './css/particles.css';
+import './particles';
+
 import freshwhipmint from './images/menta.jpg';
 import freshwhipstraw from './images/strawberry.png';
 import malkam from './images/malkam.png';
@@ -11,6 +16,7 @@ import infusionmax from './images/InfusionMax.png';
 import moca from './images/moca.png';
 import exotic from './images/exotic.png';
 
+import capsule from './images/capsule.png';
 
 
 export class Index extends Component {
@@ -71,6 +77,7 @@ export class Index extends Component {
                     <a class="navbar-brand text-white title2 mr-5" href="/">Heavenly</a>
                     <a className='btn text-light fontcom mt-1 p-3' href="#footer">Контакти</a>
                 </nav>
+    
                 <div class="p-3 bg-light sticky-top">
                     <div className='p-2 h4 fontlob float-left'>
                         Heavenly
@@ -83,6 +90,10 @@ export class Index extends Component {
                 <div class="alert alert-primary mx-5 text-center" role="alert">
                     За поръчки на по-големи количества се свържете на тел. 0877423121.
                 </div>
+                {/* <img src={capsule} className='img img1' />
+                <img src={capsule} className='img img2' />
+                <img src={capsule} className='img img3' />
+                <img src={capsule} className='img img4' /> */}
                 <div class="container">
 
                     <div class="row">
@@ -244,17 +255,16 @@ export class Index extends Component {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
+
                 <div className=' bg-light px-5'>
                     <footer class="container p-5" id='footer'>
                         <div class="row ">
                             <div class="col-md">
                                 <h3 className='fontlob'>Heavenly</h3>
-                                <p class="d-block mb-3 text-muted">Copytight &copy; 2022</p>
+                                <p class="d-block mb-3 text-muted">Copyright &copy; 2022</p>
                             </div>
-                            
+
                             <div class=" col-md">
                                 <h5>Социални мрежи</h5>
                                 <ul class="list-unstyled text-small">

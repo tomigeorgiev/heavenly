@@ -170,7 +170,7 @@ export class Cart extends Component {
                         <div class="row">
                             <div class=" col-lg">
                                 <h3 className='fontlob'>Heavenly</h3>
-                                <p class="d-block mb-3 text-muted">Copytight &copy; 2022</p>
+                                <p class="d-block mb-3 text-muted">Copyright &copy; 2022</p>
                             </div>
                             
                             <div class=" col-lg">
