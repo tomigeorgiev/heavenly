@@ -88,7 +88,7 @@ export class Index extends Component {
                 </div>
                 <br />
                 <div class="alert alert-primary mx-5 text-center" role="alert">
-                    За поръчки на по-големи количества се свържете на тел. 0877423121.
+                    За поръчки на по-големи количества се свържете на тел. +359 877423121.
                 </div>
                 {/* <img src={capsule} className='img img1' />
                 <img src={capsule} className='img img2' />
@@ -276,7 +276,7 @@ export class Index extends Component {
                                 <h5>Контакти</h5>
                                 <ul class="list-unstyled text-small">
                                     <li><a class="text-muted" href="/">gasheavenly@gmail.com</a></li>
-                                    <li><a class="text-muted" href="/">0877423121</a></li>
+                                    <li><a class="text-muted" href="/">+359 877423121</a></li>
                                 </ul>
                             </div>
                         </div>
