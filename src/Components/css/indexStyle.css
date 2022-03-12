@@ -18,9 +18,6 @@ html{
     background-color: #3d8ea7;
 }
 
-body {
-}
-
 .fr{
     float: right;
 }
@@ -87,4 +84,5 @@ body {
     100% {
         opacity: 1;
     }
+
 }

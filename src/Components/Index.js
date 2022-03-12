@@ -72,28 +72,23 @@ export class Index extends Component {
 
     render() {
         return (
-            <div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-info pl-5 ">
-                    <a class="navbar-brand text-white title2 mr-5" href="/">Heavenly</a>
-                    <a className='btn text-light fontcom mt-1 p-3' href="#footer">Контакти</a>
-                </nav>
-    
-                <div class="p-3 bg-light sticky-top">
-                    <div className='p-2 h4 fontlob float-left'>
-                        Heavenly
+            <div className=''>
+
+                <nav class="navbar navbar-expand-lg justify-content-center navbar-light bg-dark border-bottom sticky-top">
+                    <div class="wrapper">
+                        <a className='btn btn4 text-light fontcom mt-1 mx-5 p-3' href="#footer">Информация</a>
+                        <a class="navbar-brand text-white title2 mx-5" href="/">Heavenly</a>
+                        <a className='btn btn4 btnunder text-light fontcom mt-1 mx-5 p-3' href="#footer">Контакти</a>
+                        
                     </div>
-                    <a href='/cart' className='nav-link h4 text-dark float-right'>
+                    <a href='/cart' className='nav-link h4 text-light float-right'>
                         <i class="fas fa-shopping-cart"></i>
-                    </a><br /><br />
-                </div>
+                    </a>
+                </nav>
                 <br />
-                <div class="alert alert-primary mx-5 text-center" role="alert">
+                <div class="alert bg-dark text-light  mx-5 text-center" role="alert">
                     За поръчки на по-големи количества се свържете на тел. +359 877423121.
                 </div>
-                {/* <img src={capsule} className='img img1' />
-                <img src={capsule} className='img img2' />
-                <img src={capsule} className='img img3' />
-                <img src={capsule} className='img img4' /> */}
                 <div class="container">
 
                     <div class="row">
@@ -257,33 +252,31 @@ export class Index extends Component {
                     </div>
                 </div>
 
-                <div className=' bg-light px-5'>
+                <div className=' bg-dark px-5'>
                     <footer class="container p-5" id='footer'>
                         <div class="row ">
                             <div class="col-md">
-                                <h3 className='fontlob'>Heavenly</h3>
-                                <p class="d-block mb-3 text-muted">Copyright &copy; 2022</p>
+                                <h3 className='fontlob text-light'>Heavenly</h3>
+                                <p class="d-block mb-3 text-light">Copyright &copy; 2022</p>
                             </div>
 
                             <div class=" col-md">
-                                <h5>Социални мрежи</h5>
+                                <h5 className='text-light'>Социални мрежи</h5>
                                 <ul class="list-unstyled text-small">
-                                    <li><a class="text-muted" href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-                                    <li><a class="text-muted" href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                                    <li><a class="text-light" href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                                    <li><a class="text-light" href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
                                 </ul>
                             </div>
                             <div class=" col-md">
-                                <h5>Контакти</h5>
+                                <h5 className='text-light'>Контакти</h5>
                                 <ul class="list-unstyled text-small">
-                                    <li><a class="text-muted" href="/">gasheavenly@gmail.com</a></li>
-                                    <li><a class="text-muted" href="/">+359 877423121</a></li>
+                                    <li><a class="text-light" href="">gasheavenly@gmail.com</a></li>
+                                    <li><a class="text-light">+359 877423121</a></li>
+                                    <li><a class="text-light">+359 877707819</a></li>
                                 </ul>
                             </div>
                         </div>
                     </footer>
-                </div>
-                <div className='p-2 bg-info text-light text-center'>
-                    Developed by Tomi Georgiev
                 </div>
             </div>
         )
